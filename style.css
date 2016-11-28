@@ -1,0 +1,70 @@
+body{
+	background: url(kyoto2.jpg) no-repeat center fixed;
+	background-size: 100% 100%;
+}
+
+header, footer {
+   padding: 4.5em;
+   color: white;
+   background-color: black;
+   background-image: url("Noodles.jpg");
+   border:10px solid black;
+
+   clear: left;
+   text-align: center;
+}
+
+div.frame {
+	width:80%;
+	border:20px solid black; 
+	background-color: White;
+	color: Black;
+	padding: 25px;
+}
+	
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding:1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:link{
+	color: black;
+	text-decoration: underline;
+}
+
+a:visted{
+	color:blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: gray;
+}
+
+ul {
+	float: left;
+	list-style-type: circle;
+	padding: 0;
+}
+
+ul li {
+  padding:0;
+  width:150px;
+  margin:10px 0;
+  white-space: nowrap;
+}
+
+
+article {
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+	padding:1em;
+	overflow: hidden;
+}
